@@ -1,4 +1,5 @@
 elastic-marmousi-model.tar.gz
 marmousi_vp_20m_176x851.bin
+marmousi_vp_smooth_20m_176x851.bin
 elastic-marmousi-model/
 */.ipynb_checkpoints/*.ipynb
