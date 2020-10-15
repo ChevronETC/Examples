@@ -7,7 +7,7 @@ This series of jupyter notebooks demonstrates features of the `Chevron Optimizat
 <br>
 * Downstream notebooks may depend on artifacts created in previous notebooks. For example the Marmousi dataset is downloaded and processed in the series `20_marmousi_model_setup`, and used in subsequent notebooks. 
 <br>
-* Some notebooks may require reasonable HPC resources to run. For example the FWI and RTM examples can run for more than one hour, depending on what hardware you execute on. 
+* Some notebooks may require reasonable HPC resources to run. For example the FWI and RTM examples can run for more than one hour, depending on what hardware you execute them on. 
 
 
 ## Brief description of notebook series
