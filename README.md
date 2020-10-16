@@ -13,6 +13,9 @@ This series of jupyter notebooks demonstrates features of the `Chevron Optimizat
 ## Brief description of notebook series
 * `10_jets_basics` introduction to `Jets` and `DistributedJets` 
 * `20_marmousi_model_setup` download the Marmousi model
+  * The Marmousi 2 model is provided by the Allied Geophysical Laboratory of the University of Houston, license and more information at the SEG wiki entry 
+  [AGL Elastic Marmousi](https://wiki.seg.org/wiki/AGL_Elastic_Marmousi).
+  * If you run these notebooks you will have a copy of the license to review in the directory `20_marmousi_model_setup`.
 * `30_forward_modeling` static and dynamic scheduled modeling
 * `40_single_trace_sensitivity` generation of FWI sensitivity kernel
 * `50_fwi` brute force Marmousi time domain FWI 
