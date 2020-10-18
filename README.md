@@ -16,5 +16,5 @@ This series of jupyter notebooks demonstrates features of the `Chevron Optimizat
   * If you run these notebooks you will have a copy of the license to review in the directory `20_marmousi_model_setup`.
 * `30_forward_modeling` static and dynamic scheduled modeling.
 * `40_single_trace_sensitivity` generation of FWI sensitivity kernel.
-* `50_fwi` brute force Marmousi time domain FWI, including upsampling and downsampling models, and some data analysis, 
+* `50_fwi` brute force Marmousi time domain FWI, including upsampling and downsampling models, some data analysis, illumination compensation, and nonlinear optimization using `Optim.jl`.  
 * `60_rtm` brute force RTM of the Marmous FWI results, including data processing like applying a temporal mute, and image processing like a Laplacian filter to remove backscattered noise. Both static and dynamic scheduled examples are provided. 
