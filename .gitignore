@@ -1,4 +1,4 @@
 elastic-marmousi-model.tar.gz
 m*.bin
 elastic-marmousi-model/
-*/.ipynb_checkpoints/*.ipynb
+.ipynb_checkpoints
