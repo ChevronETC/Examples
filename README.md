@@ -9,6 +9,7 @@ This series of jupyter notebooks demonstrates features of the `Chevron Optimizat
 
 
 ## Brief description of notebook series
+* `00_add_packages` adds and precompiles all packages used in these demos.
 * `10_jets_basics` introduction to `Jets` and `DistributedJets`.
 * `20_marmousi_model_setup` download the Marmousi model.
   * The Marmousi 2 model is provided by the Allied Geophysical Laboratory of the University of Houston, license and more information at the SEG wiki entry 
