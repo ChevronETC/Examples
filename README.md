@@ -17,5 +17,8 @@ This series of jupyter notebooks demonstrates features of the `Chevron Optimizat
   * If you run these notebooks you will have a copy of the license to review in the directory `20_marmousi_model_setup`.
 * `30_forward_modeling` static and dynamic scheduled modeling.
 * `40_sensitivity` generation of FWI sensitivity kernels, single trace and wavefield separation examples. 
-* `50_fwi` brute force Marmousi time domain FWI using the `LBFGS` algorithm from `Optim.jl`, includes upsampling and downsampling models, data analysis, illumination compensation, very simple box constraints, and nonlinear optimization using `Optim.jl`.  
+* `50_fwi` 
+  * `01_fwi_L2.ipynb` contains a brute force Marmousi time domain FWI example using the `LBFGS` algorithm from `Optim.jl`, includes upsampling and downsampling models, data analysis, illumination compensation, very simple box constraints, and nonlinear optimization using `Optim.jl`.  
+  * `02_fwi_L2_dynamic.ipynb` contains a "cloud native" implementation of the previous notebook on the Azure cloud.
+  * `10_add_slim_packages.ipynb, 11_constrained_fwi_pqn.ipynb, 12_constrained_fwi_spg.ipynb` contain constrained FWI examples that demonstrate interoperability with Georgia Tech SLIM group's julia software. 
 * `60_rtm` brute force RTM of the Marmous FWI results, including data processing like applying a temporal mute, and image processing like a Laplacian filter to remove backscattered noise. Both static and dynamic scheduled examples are provided. 
